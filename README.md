@@ -81,7 +81,7 @@ You must have [Vagrant](http://vagrantup.com) and [VirtualBox](https://www.virtu
 # Default Credentials
 These are credentials setup by default.
 
-##Host Address:
+## Host Address:
 - Host: 10.0.0.103 (Change in Vagrantfile if you like)
  
 ## SSH
