@@ -171,9 +171,8 @@
 	<div class="container">
 		<p class="muted credit">
 			<div class="pull-left">
-				<a href="https://github.com/MiniCodeMonkey/Vagrant-LAMP-Stack" target="_blank">DevSpace Vagrant </a> by <a href="https://github.com/arifulhb" traget="_blank">Ariful Haque</a>.
+				<a href="https://github.com/SubrataBauri/ubuntuspace" target="_blank">Ubuntuspace Vagrant </a> by <a href="https://github.com/SubrataBauri" traget="_blank">Subrata Bauri</a>.
 			</div>
-			<div class="pull-right"><small>Original coder of this page is <a href="https://github.com/MiniCodeMonkey" traget="_blank">Code Monkey</a></small></div>
 		</p>
 
 	</div>
