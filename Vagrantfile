@@ -1,10 +1,15 @@
 
 Vagrant.configure(2) do |config|
 
+unless Vagrant.has_plugin?("vagrant-vbguest")
+  raise 'vagrant-vbguest plugin is not installed!  Please run the following command: vagrant plugin install vagrant-vbguest'
+end
+
   # Specify the base box
   config.vm.box = "ubuntu/trusty64"
 
   # Setup port forwarding
+  ## comment this if you get connection error during vagrant up
   config.vm.network "forwarded_port", guest: 22, host: 1022, host_ip: "127.0.0.1", id: 'ssh'
 
   # Setup network

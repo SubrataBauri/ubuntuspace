@@ -16,7 +16,7 @@ This vagrant box is configured to use '1024mb' of RAM and 1 Cpu. You can change 
 
 - Ubuntu Trusty64 (64-Bit)
 - Apache 2
-- PHP _v5.6.7_ with mysql, mcrypt, memcached, memcache, sqlite, xmlrpc, geoip gd, xdebug, php5-fpm, php5-common
+- PHP _v7.1_ with mysql, mcrypt, memcached, memcache, sqlite, xmlrpc, geoip gd, xdebug, php7.1-fpm, php7.1-common
 - MySQL _v5.5.41_
 - Git _v1.9.1_
 - Node _v0.10.38_
@@ -94,3 +94,7 @@ These are credentials setup by default.
 - Password: root
 - Host: localhost
 - Port: 3306
+
+## Errors and Solutions
+##### 1. If you get `proc_open(): fork failed` error while installing applications (ex. magento 2.2)
+[Solution link here](https://getcomposer.org/doc/articles/troubleshooting.md#proc-open-fork-failed-errors)
