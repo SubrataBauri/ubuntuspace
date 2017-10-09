@@ -98,3 +98,18 @@ These are credentials setup by default.
 ## Errors and Solutions
 ##### 1. If you get `proc_open(): fork failed` error while installing applications (ex. magento 2.2)
 [Solution link here](https://getcomposer.org/doc/articles/troubleshooting.md#proc-open-fork-failed-errors)
+
+## Enable rewrite 
+```BASH
+vagrant ssh
+cd /etc/apache2/sites-available/
+vim 000-default.conf
+```
+add the following section:
+```
+<Directory /var/www/html>
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
+```
