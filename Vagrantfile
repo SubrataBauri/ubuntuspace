@@ -9,8 +9,7 @@ end
   config.vm.box = "ubuntu/trusty64"
 
   # Setup port forwarding
-  ## comment this if you get connection error during vagrant up
-  config.vm.network "forwarded_port", guest: 22, host: 1022, host_ip: "127.0.0.1", id: 'ssh'
+  #config.vm.network "forwarded_port", guest: 22, host: 1022, host_ip: "127.0.0.1", id: 'ssh'
 
   # Setup network
   config.vm.network "private_network", ip: "10.0.0.103"
