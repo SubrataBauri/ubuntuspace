@@ -113,3 +113,13 @@ add the following section:
     Require all granted
 </Directory>
 ```
+
+# Increase speed of vagrant
+```
+vagrant ssh
+cd /etc/php/x.x/cli/
+sudo nano php.ini
+change the value 'memory_limit' to 5120
+Save and exit
+```
+*Here x.x is your php version*
