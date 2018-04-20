@@ -21,7 +21,7 @@ This vagrant box is configured to use '1024mb' of RAM and 1 Cpu. You can change 
 - Git _v1.9.1
 - Composer
 - NPM _v1.4.28_
-- Bower _v1.3.12_
+- Bower
 
 ### Included Dependencies
 The following dependencies are installed using apt-get as they are required to install and build other modules:
