@@ -21,7 +21,7 @@ This vagrant box is configured to use '1024mb' of RAM and 1 Cpu. You can change 
 - Git _v1.9.1_
 - Node _v0.10.38_
 - Composer
-- NPM _v1.4.28_
+- NPM
 - Bower
 
 ### Included Dependencies
