@@ -18,7 +18,7 @@ This vagrant box is configured to use '1024mb' of RAM and 1 Cpu. You can change 
 - Apache 2
 - PHP _v7.1_ with mysql, mcrypt, memcached, memcache, sqlite, xmlrpc, geoip gd, xdebug, php7.1-fpm, php7.1-common
 - MySQL _v5.5.41_
-- Git _v1.9.1_
+- Git
 - Node
 - Composer
 - NPM
