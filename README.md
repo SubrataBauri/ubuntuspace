@@ -94,12 +94,19 @@ These are credentials setup by default.
 - Host: localhost
 - Port: 3306
 
-# Increase speed of vagrant
-```
+
+## Enable rewrite 
+```BASH
 vagrant ssh
-cd /etc/php/x.x/cli/
-sudo nano php.ini
-change the value 'memory_limit' to 5120
-Save and exit
+cd /etc/apache2/sites-available/
+vim 000-default.conf
 ```
-*Here x.x is your php version*
+add the following section:
+```
+<Directory /var/www/html>
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
+```
+
