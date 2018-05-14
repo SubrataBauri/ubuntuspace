@@ -39,8 +39,8 @@ sudo chown www-data:www-data /var/log/xdebug > /dev/null
 
 echo "Installing xdebug"
 sudo pecl install xdebug > /dev/null
-echo "Configuring xdebug"
-sudo cp /var/www/html/config/php.ini /etc/php5/apache2/php.ini > /dev/null
+#echo "Configuring xdebug"
+#sudo cp /var/www/html/config/php.ini /etc/php5/apache2/php.ini > /dev/null
 sudo service apache2 restart > /dev/null
 echo "Xdebug installation completeted"
 
