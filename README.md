@@ -5,7 +5,7 @@ This Vagrant is a simple __Ubuntu Trusty64__ vagrant configuration for LAMP stac
 
 # Overview
 This vagrant use [ubuntu/trusty64](https://atlas.hashicorp.com/ubuntu/boxes/trusty64) from [Atlas Vagrant Box](https://atlas.hashicorp.com/boxes/search?utm_source=vagrantcloud.com&vagrantcloud=1).
-  On your 'vagrant up' command, this vagrantfile will automatically download the box. Vagrant folder here contain a `bootstrap.sh` file which provision the vagrant box.
+On your 'vagrant up' command, this vagrantfile will automatically download the box. Vagrant folder here contain a `bootstrap.sh` file which provision the vagrant box.
   
   You need to place your projects in `projects` directory. This directory is synced with `/var/www/html` directory in the virtual machine. 
   This project folder also contain a `config` folder which is used during the provisioning. 
