@@ -16,7 +16,7 @@ This vagrant box is configured to use '1024mb' of RAM and 1 Cpu. You can change 
 
 - Ubuntu Trusty64 (64-Bit)
 - Apache 2
-- PHP _v5.6.7 with mysql, mcrypt, memcached, memcache, sqlite, xmlrpc, geoip gd, xdebug, php5-fpm, php5-common
+- PHP v5.6.7 with mysql, mcrypt, memcached, memcache, sqlite, xmlrpc, geoip gd, xdebug, php5-fpm, php5-common
 - MySQL v5.5.41
 - Git
 - Composer
