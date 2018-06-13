@@ -60,7 +60,7 @@ Linux/Mac - use root user or sudo to edit this file:
 
    Add the following lines to your hosts file:
 ```
-10.0.0.103 dev.ubuntuspace.com
+10.0.0.101 dev.ubuntuspace.com
 ```
 
 
