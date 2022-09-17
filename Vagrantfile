@@ -2,7 +2,7 @@
 Vagrant.configure(2) do |config|
 
   # Specify the base box
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "ubuntu/focal64"
 
   # Setup port forwarding
   #config.vm.network "forwarded_port", guest: 22, host: 1022, host_ip: "127.0.0.1", id: 'ssh'
